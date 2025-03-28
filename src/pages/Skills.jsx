@@ -68,24 +68,11 @@ const Skills = () => {
       name: "API",
       icon: icons.api,
     },
-    // "Javascript",
-    // "HTML/CSS",
-    // "Node.js",
-    // "Express",
-    // "MongoDB",
-    // "SQL",
-    // "Python",
-    // "Git",
-    // "GitHub",
-    // "Typescript",
-    // "Redux",
-    // "Material UI",
-    // "Tailwind CSS",
   ];
   return (
     <div
       id="Skills"
-      className="px-10 md:px-30 py-4 flex items flex-col border-t-1 border-slate-800 bg-slate-950 md:py-20"
+      className="px-10 md:px-30 py-4 flex items flex-col border-t-1 border-slate-800 bg-slate-950 md:py-20 md:min-h-auto xl:min-h-auto"
     >
       <h1 className="text-4xl font-semibold text-violet-500">SKILLS.</h1>
       <div className="grid grid-cols-3 md:grid-rows-3 md:grid-cols-6 gap-2 md:gap-4 mt-4 md:my-10">

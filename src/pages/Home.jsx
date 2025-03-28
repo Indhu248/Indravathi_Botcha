@@ -12,12 +12,12 @@ const Home = () => {
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ duration: 0.5 }}
-     className="w-full h-[100vh] bg-gradient-to-r from-[#745BFF] to-[#A291FF] px-8 md:px-16 lg:px-30">
+     className="w-full min-h-screen bg-gradient-to-r from-[#745BFF] to-[#A291FF] px-8 md:px-16 lg:px-30">
       <Nav />
       <div className="flex flex-col lg:flex-row justify-between items-center">
         {/* Left Section */}
         <div className="flex flex-col justify-center h-[80vh] text-center lg:text-left">
-          <h1 className="text-[9vh] sm:text-[15vh] md:text-[21vh] lg:text-[23vh] leading-14 md:leading-34 font-black">
+          <h1 className="text-[7vh] sm:text-[10vh] md:text-[12vh] lg:text-[15vh] xl:text-[22vh] md:leading-tight xl:leading-[20vh] font-black">
             Web<br />
             Developer
           </h1>
@@ -30,7 +30,7 @@ const Home = () => {
         </div>
 
         {/* Right Section */}
-        <div className="w-full lg:w-auto  md:flex justify-center lg:justify-end mt-8 lg:mt-0">
+        <div className="w-full hidden lg:flex xl:flex lg:w-auto flex justify-center lg:justify-end items-center mt-8 lg:mt-0">
           <Blocks />
         </div>
       </div>

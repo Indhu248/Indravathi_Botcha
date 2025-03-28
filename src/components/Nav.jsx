@@ -46,7 +46,7 @@ const Nav = () => {
         <div className="flex flex-col md:flex md:flex-row items-center">
           <Menu color="black" onClick={() => setShowMenu(!showMenu)} className="relative md:hidden"/>
           <nav
-          className={`absolute md:relative rounded-lg md:rounded-none left-50 md:left-0 top-18 md:top-0 bg-slate-950 md:bg-transparent md:flex transition-all px-4 md:px-0 md:mr-6 ${
+          className={`fixed md:relative rounded-lg md:rounded-none left-0 md:left-0 top-18 md:top-0 bg-slate-950 md:bg-transparent md:flex transition-all px-4 md:px-0 md:mr-6 ${
             showMenu ? "block" : "hidden"
           }`}
         >
@@ -68,7 +68,7 @@ const Nav = () => {
             ))}
           </ul>
         </nav>
-        <button className="hidden lg:flex md:w-50 justify-between items-center bg-slate-950 hover:bg-slate-800 text-slate-50 font-bold py-2 px-2 rounded-full">
+        <button className="hidden xl:flex lg:flex md:w-50 justify-between items-center bg-slate-950 hover:bg-slate-800 text-slate-50 font-bold py-2 px-2 rounded-full">
           <a href={mailtoLink}
           className="text-slate-400 font-normal text-md flex items-center pl-2">
             {/* <Mail size={19}/> */}
