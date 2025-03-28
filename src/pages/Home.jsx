@@ -17,7 +17,7 @@ const Home = () => {
       <div className="flex flex-col lg:flex-row justify-between items-center">
         {/* Left Section */}
         <div className="flex flex-col justify-center h-[80vh] text-center lg:text-left">
-          <h1 className="text-[7vh] sm:text-[10vh] md:text-[12vh] lg:text-[15vh] xl:text-[22vh] md:leading-tight xl:leading-[20vh] font-black">
+          <h1 className="text-[7vh] sm:text-[10vh] md:text-[12vh] lg:text-[15vh] xl:text-[20vh] md:leading-tight xl:leading-[20vh] font-black">
             Web<br />
             Developer
           </h1>

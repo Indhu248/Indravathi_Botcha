@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <div
     id="Contact"
-     className="relative overflow-hidden bg-violet-100 width-[100vw] text-slate-900 py-10 px-10 md:px-30 h-[50vh]">
+     className="relative overflow-hidden bg-violet-100 width-[100vw] text-slate-900 py-10 px-10 md:px-30 min-h-auto">
       {/* upper */}
       <div className="flex justify-between">
         {/* Upper Left */}
@@ -58,12 +58,12 @@ const Footer = () => {
             </li>
 
           </ul>
-          <h3 className="text-slate-950 text-sm mt-14">
+          <h3 className="text-slate-600 text-sm mt-14">
           ©2025 indravathi All rights reserved
         </h3>
         </div>
         {/* Upper Right */}
-        <div className="opacity-80 hidden md:flex">
+        <div className="opacity-80 hidden md:flex h-[20vh]">
           <Blocks />
         </div>
       </div>
