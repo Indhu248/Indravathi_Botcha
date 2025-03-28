@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('../public/myfont.otf') format('opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Extend Tailwind */
+@layer utilities {
+  .font-mycustom {
+    font-family: 'MyCustomFont', sans-serif;
+  }
+}
+body{
+  overflow-x: hidden;
+}
+*{
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.outline-text {
+  -webkit-text-stroke: 1px #ffffff; /* Outline thickness & color */
+  color: transparent; /* Hide fill color */
+  background-color: transparent;
+  color: transparent;
+}
+
+.bold-text{
+  font-family: 'MyCustomFont', sans-serif;
+}
+.item{
+  /* position: relative; */
+  /* height: 30vh; */
+  /* width: 100vw; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* margin-bottom: 0px; */
+  /* border-bottom: 2px solid rgb(216, 116, 133); */
+  /* background-color: rgb(255, 141, 141); */
+  /* border-radius: 20px; */
+  /* overflow: hidden; */
+}
