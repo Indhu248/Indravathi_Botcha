@@ -10,8 +10,8 @@ const App = () => {
   
   return (
     <Routes>
-      {/* <Route path='/' element={<LoadingPage setLoading={setLoading}/>}/> */}
-      <Route path='/' element={loading ? <LoadingPage setLoading={setLoading}/> : <Index />} />
+      <Route path='/' element={<LoadingPage setLoading={setLoading}/>}/>
+      {/* <Route path='/' element={loading ? <LoadingPage setLoading={setLoading}/> : <Index />} /> */}
       {/* <Route path='/' element={loading ? <LoadingPage /> : <About />} /> */}
     </Routes>
   );

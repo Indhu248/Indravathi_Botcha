@@ -12,7 +12,7 @@ const Projects = () => {
   // const [arrowVisible, setArrowVisible] = useState(false);
   return (
     <motion.div 
-    id="Projects" className="border-t-1 border-slate-800 px-10 md:px-30 py-10 flex flex-col min-h-screen bg-slate-950">
+    id="Projects" className="border-t-1 border-slate-800 px-10 md:px-30 py-10 flex flex-col min-h-auto bg-slate-950">
       <h1 className="text-4xl font-semibold text-violet-500">PROJECTS.</h1>
       <div className="flex flex-col mt-4 md:mt-0">
         {[

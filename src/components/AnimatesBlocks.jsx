@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const AnimatedBlocks = () => {
   return (
-    <motion.div className="grid grid-cols-3 grid-rows-3 gap-4 p-4 w-[56vw] md:w-[16vw] h-58">
+    <motion.div className="grid grid-cols-3 grid-rows-3 gap-2 p-4 w-auto md:w-auto lg:w-auto md:h-58 lg:h-58">
       <motion.div
         initial={{ scale: 0.9 }}
         animate={{ scale: 1 }}
@@ -13,7 +13,7 @@ const AnimatedBlocks = () => {
           repeatType: "mirror",
           ease: "easeInOut"
         }}
-        className="col-span-1 w-15 h-15 row-span-1 bg-[#794DFF60] p-4 text-center rounded-lg"
+        className="col-span-1 w-16 h-16 row-span-1 bg-[#794DFF60] p-4 text-center rounded-lg"
       ></motion.div>
       <div className="col-span-1 w-10 h-10 row-span-1 bg-[#794DFF90] p-4 text-center rounded-lg"></div>
       <div className="col-start-1 w-10 h-10 row-span-1 bg-[#794DFF] p-4 text-center rounded-lg"></div>
