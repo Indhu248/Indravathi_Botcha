@@ -12,7 +12,7 @@ const About = () => {
     <div 
     id="About" className="relative w-[100vw] bg-slate-950 md:px-30">
       <div>
-        <h1 className="text-slate-50 text-2xl md:text-4xl font-semibold text-center px-12 md:px-46 py-20">
+        <h1 className="text-slate-50 text-2xl md:text-4xl font-semibold text-center px-10 md:px-46 py-20">
           I'M A <span className={span_style}>FULL-STACK DEVELOPER</span> DIGITAL CREATOR, AND AI ENTHUSIAST WHO LOVES BUILDING, DESIGNING, AND SHARING KNOWLEDGE. I SIMPLIFY COMPLEX TOPICS TO HELP OTHERS LEARN AND GROW. WHETHER THROUGH CODE, DESIGN, OR CONTENT, I AIM TO INSPIRE AND EXPLORE NEW POSSIBILITIES.
         </h1>
       </div>

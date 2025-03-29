@@ -22,7 +22,7 @@ const Home = () => {
             Developer
           </h1>
           <button className="flex w-40 justify-between items-center bg-slate-50 hover:bg-slate-300 text-slate-950 font-bold py-2 px-2 rounded-full mt-8 mx-auto lg:mx-0">
-            <a href="https://drive.google.com/file/d/1i_aLqwbo13EKWWD01vPPF9UlT9xGC52P/view?usp=sharing" className="text-slate-950 font-normal text-lg pl-2">Resume</a>
+            <a href="https://drive.google.com/file/d/1WRZMh7ie5WpRnXtHjItN_lviNEG3XW3q/view?usp=sharing" className="text-slate-950 font-normal text-lg pl-2">Resume</a>
             <div className="bg-violet-500 p-2 rounded-full">
               <MoveRight size={24} color="white" />
             </div>
