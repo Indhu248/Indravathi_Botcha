@@ -16,7 +16,7 @@ const Projects = () => {
       <h1 className="text-4xl font-semibold text-violet-500">PROJECTS.</h1>
       <div className="flex flex-col mt-4 md:mt-0">
         {[
-          { name: "E-COMMERCE WEBSITE", image: one, link:"https://github.com/Indhu248?tab=repositories" },
+          { name: "E-COMMERCE WEBSITE", image: one, link:"https://github.com/Indhu248?tab=https://zoundly-shopping-website.vercel.app/" },
           { name: "PORTFOLIO WEBSITE", image: two, link:"https://github.com/Indhu248/portfolio_indhu" },
           { name: "YOUTUBE CLONE", image: three, link:"https://github.com/Indhu248/Youtube_Clone" },
           { name: "OTHER PROJECTS", image: four, link:"https://github.com/Indhu248?tab=repositories" },
